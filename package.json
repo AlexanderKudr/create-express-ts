@@ -2,7 +2,7 @@
   "name": "create-express-ts",
   "version": "1.0.0",
   "description": "",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently  \"npx tsc --watch\" \"nodemon dist/main.js\""
