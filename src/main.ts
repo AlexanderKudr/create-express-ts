@@ -1,7 +1,8 @@
 import express from "express";
 import cors from "cors";
 import * as dotenv from "dotenv";
-import { testData } from "./module/test";
+import { testData } from "@/modules/test";
+
 
 dotenv.config();
 const app = express();
